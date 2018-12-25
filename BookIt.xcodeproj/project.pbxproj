@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071FAE39B3EF25024E80687D /* Pods_BookIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4572DA0AB27D099C37127FCA /* Pods_BookIt.framework */; };
+		8663603F21D0FA0300B52C4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8663603E21D0FA0300B52C4D /* AppDelegate.swift */; };
+		8663604121D0FA0300B52C4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8663604021D0FA0300B52C4D /* ViewController.swift */; };
+		8663604421D0FA0300B52C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8663604221D0FA0300B52C4D /* Main.storyboard */; };
+		8663604721D0FA0300B52C4D /* BookIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8663604521D0FA0300B52C4D /* BookIt.xcdatamodeld */; };
+		8663604921D0FA0500B52C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8663604821D0FA0500B52C4D /* Assets.xcassets */; };
+		8663604C21D0FA0500B52C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8663604A21D0FA0500B52C4D /* LaunchScreen.storyboard */; };
+		8663605721D0FA0500B52C4D /* BookItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8663605621D0FA0500B52C4D /* BookItTests.swift */; };
+		8663606421D0FE7B00B52C4D /* Book IT.png in Resources */ = {isa = PBXBuildFile; fileRef = 8663606321D0FE7B00B52C4D /* Book IT.png */; };
+		867326B121D152DD004DC4D9 /* RideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867326B021D152DD004DC4D9 /* RideCell.swift */; };
+		867326B521D154FE004DC4D9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867326B421D154FE004DC4D9 /* HomeViewController.swift */; };
+		EE68398106F8D0E6E381771B /* Pods_BookItTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0A2053E2B28D310366A3BF /* Pods_BookItTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8663605321D0FA0500B52C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8663603321D0FA0200B52C4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8663603A21D0FA0200B52C4D;
+			remoteInfo = BookIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26AB7E08DA3B52104E7875F8 /* Pods-BookIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookIt/Pods-BookIt.debug.xcconfig"; sourceTree = "<group>"; };
+		2A0A2053E2B28D310366A3BF /* Pods_BookItTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookItTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4572DA0AB27D099C37127FCA /* Pods_BookIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8663603B21D0FA0300B52C4D /* BookIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8663603E21D0FA0300B52C4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8663604021D0FA0300B52C4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8663604321D0FA0300B52C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8663604621D0FA0300B52C4D /* BookIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookIt.xcdatamodel; sourceTree = "<group>"; };
+		8663604821D0FA0500B52C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8663604B21D0FA0500B52C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8663604D21D0FA0500B52C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8663605221D0FA0500B52C4D /* BookItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8663605621D0FA0500B52C4D /* BookItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItTests.swift; sourceTree = "<group>"; };
+		8663605821D0FA0500B52C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8663606321D0FE7B00B52C4D /* Book IT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Book IT.png"; sourceTree = "<group>"; };
+		867326B021D152DD004DC4D9 /* RideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideCell.swift; sourceTree = "<group>"; };
+		867326B421D154FE004DC4D9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9282354F627838882CEA165E /* Pods-BookIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookIt/Pods-BookIt.release.xcconfig"; sourceTree = "<group>"; };
+		BE1608FD92DB437508BCD0F0 /* Pods-BookItTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookItTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookItTests/Pods-BookItTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDAEB20A2268CFCF9044BF91 /* Pods-BookItTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookItTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookItTests/Pods-BookItTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8663603821D0FA0200B52C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071FAE39B3EF25024E80687D /* Pods_BookIt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8663604F21D0FA0500B52C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE68398106F8D0E6E381771B /* Pods_BookItTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		614BF908F08494DA9565447B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26AB7E08DA3B52104E7875F8 /* Pods-BookIt.debug.xcconfig */,
+				9282354F627838882CEA165E /* Pods-BookIt.release.xcconfig */,
+				BE1608FD92DB437508BCD0F0 /* Pods-BookItTests.debug.xcconfig */,
+				CDAEB20A2268CFCF9044BF91 /* Pods-BookItTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8663603221D0FA0200B52C4D = {
+			isa = PBXGroup;
+			children = (
+				8663603D21D0FA0300B52C4D /* BookIt */,
+				8663605521D0FA0500B52C4D /* BookItTests */,
+				8663603C21D0FA0300B52C4D /* Products */,
+				614BF908F08494DA9565447B /* Pods */,
+				BADAB4C08BDBFA4AF300A7AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8663603C21D0FA0300B52C4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8663603B21D0FA0300B52C4D /* BookIt.app */,
+				8663605221D0FA0500B52C4D /* BookItTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8663603D21D0FA0300B52C4D /* BookIt */ = {
+			isa = PBXGroup;
+			children = (
+				8663603E21D0FA0300B52C4D /* AppDelegate.swift */,
+				8663604021D0FA0300B52C4D /* ViewController.swift */,
+				8663606321D0FE7B00B52C4D /* Book IT.png */,
+				8663604221D0FA0300B52C4D /* Main.storyboard */,
+				867326B421D154FE004DC4D9 /* HomeViewController.swift */,
+				867326B021D152DD004DC4D9 /* RideCell.swift */,
+				8663604821D0FA0500B52C4D /* Assets.xcassets */,
+				8663604A21D0FA0500B52C4D /* LaunchScreen.storyboard */,
+				8663604D21D0FA0500B52C4D /* Info.plist */,
+				8663604521D0FA0300B52C4D /* BookIt.xcdatamodeld */,
+			);
+			path = BookIt;
+			sourceTree = "<group>";
+		};
+		8663605521D0FA0500B52C4D /* BookItTests */ = {
+			isa = PBXGroup;
+			children = (
+				8663605621D0FA0500B52C4D /* BookItTests.swift */,
+				8663605821D0FA0500B52C4D /* Info.plist */,
+			);
+			path = BookItTests;
+			sourceTree = "<group>";
+		};
+		BADAB4C08BDBFA4AF300A7AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4572DA0AB27D099C37127FCA /* Pods_BookIt.framework */,
+				2A0A2053E2B28D310366A3BF /* Pods_BookItTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8663603A21D0FA0200B52C4D /* BookIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8663605B21D0FA0500B52C4D /* Build configuration list for PBXNativeTarget "BookIt" */;
+			buildPhases = (
+				F9BBBE2CB1A84CC3233FFEC2 /* [CP] Check Pods Manifest.lock */,
+				8663603721D0FA0200B52C4D /* Sources */,
+				8663603821D0FA0200B52C4D /* Frameworks */,
+				8663603921D0FA0200B52C4D /* Resources */,
+				1B80038FF8556707E0CFCA23 /* [CP] Copy Pods Resources */,
+				D6A914920C3764FB3A7C05DF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookIt;
+			productName = BookIt;
+			productReference = 8663603B21D0FA0300B52C4D /* BookIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8663605121D0FA0500B52C4D /* BookItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8663605E21D0FA0500B52C4D /* Build configuration list for PBXNativeTarget "BookItTests" */;
+			buildPhases = (
+				2A0FE4548011DD8155288F26 /* [CP] Check Pods Manifest.lock */,
+				8663604E21D0FA0500B52C4D /* Sources */,
+				8663604F21D0FA0500B52C4D /* Frameworks */,
+				8663605021D0FA0500B52C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8663605421D0FA0500B52C4D /* PBXTargetDependency */,
+			);
+			name = BookItTests;
+			productName = BookItTests;
+			productReference = 8663605221D0FA0500B52C4D /* BookItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8663603321D0FA0200B52C4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Shashank Chandran";
+				TargetAttributes = {
+					8663603A21D0FA0200B52C4D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8663605121D0FA0500B52C4D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8663603A21D0FA0200B52C4D;
+					};
+				};
+			};
+			buildConfigurationList = 8663603621D0FA0200B52C4D /* Build configuration list for PBXProject "BookIt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8663603221D0FA0200B52C4D;
+			productRefGroup = 8663603C21D0FA0300B52C4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8663603A21D0FA0200B52C4D /* BookIt */,
+				8663605121D0FA0500B52C4D /* BookItTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8663603921D0FA0200B52C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8663604C21D0FA0500B52C4D /* LaunchScreen.storyboard in Resources */,
+				8663604921D0FA0500B52C4D /* Assets.xcassets in Resources */,
+				8663606421D0FE7B00B52C4D /* Book IT.png in Resources */,
+				8663604421D0FA0300B52C4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8663605021D0FA0500B52C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B80038FF8556707E0CFCA23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BookIt/Pods-BookIt-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookIt/Pods-BookIt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A0FE4548011DD8155288F26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookItTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6A914920C3764FB3A7C05DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BookIt/Pods-BookIt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookIt/Pods-BookIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9BBBE2CB1A84CC3233FFEC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookIt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8663603721D0FA0200B52C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8663604721D0FA0300B52C4D /* BookIt.xcdatamodeld in Sources */,
+				867326B121D152DD004DC4D9 /* RideCell.swift in Sources */,
+				8663604121D0FA0300B52C4D /* ViewController.swift in Sources */,
+				8663603F21D0FA0300B52C4D /* AppDelegate.swift in Sources */,
+				867326B521D154FE004DC4D9 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8663604E21D0FA0500B52C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8663605721D0FA0500B52C4D /* BookItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8663605421D0FA0500B52C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8663603A21D0FA0200B52C4D /* BookIt */;
+			targetProxy = 8663605321D0FA0500B52C4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8663604221D0FA0300B52C4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8663604321D0FA0300B52C4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8663604A21D0FA0500B52C4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8663604B21D0FA0500B52C4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8663605921D0FA0500B52C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8663605A21D0FA0500B52C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8663605C21D0FA0500B52C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26AB7E08DA3B52104E7875F8 /* Pods-BookIt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6LNLR9M38;
+				INFOPLIST_FILE = BookIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.BookIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8663605D21D0FA0500B52C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9282354F627838882CEA165E /* Pods-BookIt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6LNLR9M38;
+				INFOPLIST_FILE = BookIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.BookIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8663605F21D0FA0500B52C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE1608FD92DB437508BCD0F0 /* Pods-BookItTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6LNLR9M38;
+				INFOPLIST_FILE = BookItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.BookItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookIt.app/BookIt";
+			};
+			name = Debug;
+		};
+		8663606021D0FA0500B52C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAEB20A2268CFCF9044BF91 /* Pods-BookItTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6LNLR9M38;
+				INFOPLIST_FILE = BookItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.BookItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookIt.app/BookIt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8663603621D0FA0200B52C4D /* Build configuration list for PBXProject "BookIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8663605921D0FA0500B52C4D /* Debug */,
+				8663605A21D0FA0500B52C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8663605B21D0FA0500B52C4D /* Build configuration list for PBXNativeTarget "BookIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8663605C21D0FA0500B52C4D /* Debug */,
+				8663605D21D0FA0500B52C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8663605E21D0FA0500B52C4D /* Build configuration list for PBXNativeTarget "BookItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8663605F21D0FA0500B52C4D /* Debug */,
+				8663606021D0FA0500B52C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8663604521D0FA0300B52C4D /* BookIt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8663604621D0FA0300B52C4D /* BookIt.xcdatamodel */,
+			);
+			currentVersion = 8663604621D0FA0300B52C4D /* BookIt.xcdatamodel */;
+			path = BookIt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8663603321D0FA0200B52C4D /* Project object */;
+}
