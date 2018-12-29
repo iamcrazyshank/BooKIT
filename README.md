@@ -1,4 +1,4 @@
-# BootIT
+# BooKIT
 iOS app for booking bikes ,
 Screenshots of the app!
 
