@@ -4,6 +4,8 @@ Screenshots of the app!
 
  please replace the API KEY...
  
+ Wait for updates!
+ 
  
 ![screen shot 2018-12-25 at 2 36 21 pm](https://user-images.githubusercontent.com/32428855/50418710-f9a21400-0852-11e9-8a0c-bd37b4d393f8.png)
 
